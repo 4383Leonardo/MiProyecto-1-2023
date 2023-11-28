@@ -16,8 +16,8 @@ margin: 0;
 }
 footer{
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+   
+    
  
 }
 #cabeceraImagenNombre{
@@ -102,4 +102,32 @@ h1{
 #datosDetalle{
     text-align: justify;
     padding: 30px;
+}
+#botones{
+    display: flex;
+}
+#botonFavorito{
+    flex: 50%;
+}
+#botonUbicacion{
+    flex: 50%;
+}
+#marcoFavorito{
+    background-image: url(../img/Recurso\ 13.png);
+}
+.disenoBoton{
+    background-position: left 8px center;
+    width: 250px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 35px;
+}
+#marcoUbicacion{
+    background-image: url(../img/Recurso\ 2.png);
+}
+.disenoBoton:hover{
+    opacity: 60%;
+    cursor: pointer;
 }
