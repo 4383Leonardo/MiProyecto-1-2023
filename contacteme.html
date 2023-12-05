@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <title>Document</title>
 </head>
 <body>
@@ -26,32 +27,29 @@
     </div>
     <!--Aqui se inserto el cuerpo del index-->
     <div id="cuerpoContenido">
-        <div id="cuerpoImagen">
-            <div id="bordeImagen" >
-                <img src="/img/Recurso 1.png" height="400" width="480"> 
-            </div>
-        </div>
-        <div id="cuerpoDetalle">
-            <h1>Bienvenido</h1>
-            <div id="datosDetalle">
-                <p>Esperamos que tu primer día sea emocionante”. “Bienvenido a Encuadrado, ¡qué alegría que seas parte del equipo!”
-                 “¡Enhorabuena por formar parte del equipo! ¡Toda la compañía le da la bienvenida, y esperamos un viaje exitoso con usted!</p>
-            </div>
-            <div id="botones">
-                <div id="botonFavorito" >
-                    <div id="marcoFavorito" class="disenoBoton">
-                        Persona favorita
-                    </div>
-                </div>
-      
-                <div id="botonUbicacion">
-                    <div id="marcoUbicacion" class="disenoBoton">
-                        Mi ubicación
-                    </div>
-                   
-                </div>
-            </div>
-        </div>
+       <div id="formularioDatos">
+        <fieldset>
+            <legend>MIS DATOS</legend>
+            <form>
+                <label>Nombre</label>
+                <input type="text" placeholder="ingreseSuNombre">
+                <label>Apellido</label>
+                <input type="text" placeholder="ingreseSuApellido">
+                <label>Edad</label>
+                <input type="number">
+                <select>
+                    <option value="cbba">Cochabamba</option>
+                    <option value="santaCruz">Santa Cruz</option>
+                    <option value="laPaz">La Paz</option>
+                    <option value="tarija">Tarija</option>
+                    <option value="oruro">Oruro</option>
+                </select>
+                <label>Descripción</label>
+                <textarea></textarea>
+                <input type="button" value="insertar">
+            </form>
+        </fieldset>
+       </div>
     </div>
     <!--Aqui colocaremos el pie de el index-->
     <footer>
